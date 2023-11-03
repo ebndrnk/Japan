@@ -40,7 +40,7 @@ public class OpenPagae extends JFrame {
 
         button_send.addActionListener(e -> {
 
-//            Thread threadForWhile = new Thread(() -> {
+
                 Date date;
                 while(true){
                     date = new Date();
@@ -54,8 +54,7 @@ public class OpenPagae extends JFrame {
                         throw new RuntimeException(ex);
                     }
                 }
-//            });
-//            threadForWhile.start();
+
 
         });
 
